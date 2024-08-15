@@ -8,6 +8,13 @@
 }
 
 *{
-  background-color: #e23e57;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  height: 100vh;
+  
 }
 
