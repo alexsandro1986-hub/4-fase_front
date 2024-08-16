@@ -1,0 +1,9 @@
+.page-container {
+    width: 100%;
+     /* Define a largura máxima da página */
+    margin: 0 auto; /* Centraliza a página horizontalmente */
+    height: 100vh; /* Define a altura da página como a altura da janela de visualização */
+    overflow-y: auto; /* Adiciona rolagem vertical se o conteúdo exceder a altura */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding na largura e altura totais */
+  }

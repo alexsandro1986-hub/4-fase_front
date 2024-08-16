@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-     <div>
+     <div className='page-container'>
 
       <Home />
-      <p>teste</p>
+      
 
      </div>
     </>

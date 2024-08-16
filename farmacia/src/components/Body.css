@@ -1,5 +1,37 @@
 .body{
     padding: 20px;
-    flex-direction: column;
+    flex-direction: flex;
+ 
+    
+    height: 100vh;
+    margin-left: 315px;
 
+ 
+ 
+}
+.fotos-container .teste{
+    padding: 10px;
+}
+.fotos-1{
+    display: flex;
+    gap: 10px;
+}
+.fotos-2{
+    display: flex;
+    gap: 10px;
+}
+
+.teste{
+    width: 700px; word-wrap: break-word;
+  
+    margin: 25px;
+}
+.btn-gostei{
+    display: flex;
+    gap: 25px;
+    padding: 25px;
+}
+.farmacia-teste{
+    width: 150px;
+    height: 350px;
 }

@@ -4,8 +4,18 @@
   background-color: aliceblue;
   padding: 60px 0 40px 1%;
   background-color: var(--cor-1);
-  
+  box-shadow: 3px 0 0 var(--cor-5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: .2s;
 }
+
+.header-container:hover {
+width: 300px;
+}
+aa
 .logo-titulo{
   padding: 20px;
   margin-bottom: 20px;
@@ -21,11 +31,33 @@
   color: var(--cor-2);
 }
 
+ul li.item-menu{
+  transition: .2s;
+}
+
+ul{
+  list-style-type:none ;
+  height: 100%;
+}
+
+ul li.item-menu:hover{
+  background-color: var(--cor-5);
+}
+
 ul li.item-menu a{
   color: var(--cor-2);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   padding: 20px 4%;
   display: flex;
   margin-bottom: 20px;
+  list-style-type:none ;
+}
+ul li.item-menu a .txt-link {
+  margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+  font-size: 30px;
+  
 }

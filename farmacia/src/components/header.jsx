@@ -11,7 +11,7 @@ function Header() {
 
       <div className='logo-titulo'>
         <img src="./images/logo.png" alt="" />
-        <h1 className='titulo'> Farmacia Popular</h1>
+        <h1 className='titulo'> Farmacia Raisen</h1>
       </div>
 
       <div >
@@ -43,6 +43,7 @@ function Header() {
           </li>
 
         </ul>
+        
       </div>
     </div>
   )
