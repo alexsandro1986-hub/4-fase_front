@@ -23,19 +23,20 @@ function Body() {
             qualidade e um serviço ainda mais personalizado para você.
             Agradecemos pela confiança e estamos prontos para cuidar de sua saúde
             com ainda mais dedicação. Venha nos visitar<br /></p>
+             <img  src="./images/farmarcia.PNG.png" alt="" />
+
+        </div>
+
+       
+          <div className='fotos-container1'>
+
           <div className='fotos-1'>
             <img src="./images/placa.png" alt="" />
 
             <img src="./images/cartoes.png" alt="" />
 
           </div>
-
-        </div>
-
-          <div className='farmacia-teste'>
-             <img src="./images/farmacia.png" alt="" />
           </div>
-       
 
         <div className='fotos-container2'>
           <p className='teste'>Nossa farmácia está sob nova liderança e, para comemorar,

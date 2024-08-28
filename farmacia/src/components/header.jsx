@@ -11,6 +11,7 @@ function Header() {
 
       <div className='logo-titulo'>
         <img src="./images/logo.png" alt="" />
+       
         <h1 className='titulo'> Farmacia Raisen</h1>
       </div>
 
