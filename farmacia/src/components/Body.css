@@ -1,13 +1,10 @@
 .body {
     padding: 20px;
-    flex-direction: flex;
-
-
+    display: flex;
+    flex-direction: column; /* Se você quiser que os elementos sejam empilhados verticalmente */
     height: 100vh;
     margin-left: 315px;
-
-
-
+    position: relative; /* Necessário para a posição absoluta do btn-container */
 }
 
 .fotos-container .teste {
@@ -54,4 +51,15 @@
 .farmacia-teste {
     width: 500px;
     height: 500px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 20px; /* Ajusta a distância da borda direita da tela */
+    bottom: 20px; /* Ajusta a distância da borda inferior, se necessário */
+    padding: 20px;
+    border: 2px solid #000; /* Cria a caixa ao redor do botão */
+    border-radius: 5px; /* Opcional: adiciona bordas arredondadas */
 }

@@ -1,0 +1,17 @@
+.agendamento-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .agendamento-container h2 {
+    color: #2c3e50;
+  }
+  
+  .agendamento-container p {
+    font-size: 18px;
+    color: #16a085;
+  }
+  
