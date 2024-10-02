@@ -86,16 +86,16 @@ function Body() {
         
 
         <div className='senha-container'>
-          <button onClick={normal}>Normal</button>
-          <div>Fila Normal: N{filaNormal.length}</div> {/* Exibe as senhas normais na fila */}
+          <button className='btn-normal' onClick={normal}>Normal</button>
+          <div>Fila Normal: N: {filaNormal.length}</div> {/* Exibe as senhas normais na fila */}
 
-          <button onClick={preferencial}>Preferencial</button>
-          <div>Fila Preferencial: P{filaPreferencial.length}</div> {/* Exibe as senhas preferenciais na fila */}
+          <button className='btn-preferencial' onClick={preferencial}>Preferencial</button>
+          <div>Fila Preferencial: P: {filaPreferencial.length}</div> {/* Exibe as senhas preferenciais na fila */}
         </div>
 
         {/* Botão para tirar a próxima senha */}
         <div className='tirar-senha'>
-          <button onClick={tirarSenha}>Tirar Senha</button>
+          <button className='btn-senha' onClick={tirarSenha}>Tirar Senha</button>
           <div>Senha Atual: {senhaAtual}</div>
         </div>
 

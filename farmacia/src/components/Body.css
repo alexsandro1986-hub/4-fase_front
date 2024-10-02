@@ -53,6 +53,20 @@
     height: 500px;
 }
 
+.btn-preferencial{
+    width: 100px;
+    background-color: rgb(251, 255, 255);
+}
+.btn-normal{
+    width: 100px;
+    background-color: rgb(251, 255, 255);
+}
+.btn-senha{
+    width: 100px;
+    background-color: rgb(251, 255, 255);
+}
+
+
 .btn-container {
     display: flex;
     justify-content: center;
