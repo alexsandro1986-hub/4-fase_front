@@ -10,6 +10,9 @@
   left: 0;
   overflow:hidden;
   transition: .2s;
+
+
+  
 }
 
 .header-container:hover {
